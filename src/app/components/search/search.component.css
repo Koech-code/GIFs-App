@@ -1,0 +1,17 @@
+input {
+  width: 50vw;
+  height: 5vh;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+button {
+  min-width: 7vw;
+  height: 5vh;
+  background-color: cadetblue;
+  border-radius: 10px;
+  margin-left: 10px;
+}
