@@ -10,6 +10,11 @@ export class SearchComponent implements OnInit {
 
   constructor(private gifDataService: GifDataService) { }
 
+  performSearch(searchTerm: HTMLInputElement): void {
+    console.log(`user entered: ${searchTerm.value}`);
+  }
+
   ngOnInit(): void {
+
   }
 }

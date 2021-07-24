@@ -1,6 +1,6 @@
 <div class="search">
     <h3>Search for a GIF.</h3>
-    <input type="text" placeholder="Search for a GIF" >
+    <input type="text" name="title" #searchTerm placeholder="Search for a GIF" >
     <!-- <br><br> -->
-    <button>Search</button>
+    <button (click)="performSearch(searchTerm)">Search</button>
 </div>
